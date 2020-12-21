@@ -17,7 +17,7 @@ var sceltaNumeroUtente = parseInt(prompt('Inserisci un numero da 1 a 5'));
 
 
 i = 0;
-while (sceltaNumeroUtente < 0  || sceltaNumeroUtente > 5 ) {
+while (sceltaNumeroUtente <= 0  || sceltaNumeroUtente > 5 ) {
     sceltaNumeroUtente = parseInt(prompt('Non è compreso tra 1 e 5, Inserisci un numero da 1 a 5'));
     i++;
 
